@@ -80,11 +80,11 @@ export default function Index() {
               <div className="absolute inset-0 bg-[radial-gradient(60%_40%_at_70%_10%,hsl(var(--primary)/0.15),transparent)]" />
               <div className="flex h-full items-center justify-center p-4">
                 <img
-                  src="./images/avatar.jpg"
+                  src={`${import.meta.env.BASE_URL}images/avatar.jpg`}
                   alt="Phạm Quang Tiến Thành"
                   className="w-full h-full object-cover rounded-2xl shadow-lg"
                   onError={(e) => {
-                    // Fallback nếu ảnh không load được
+                    console.log("Avatar image failed to load, using fallback");
                     e.currentTarget.src = "https://via.placeholder.com/400x400/6366f1/ffffff?text=PT";
                   }}
                 />

@@ -81,7 +81,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <a
-              href="mailto:contact@example.com"
+              href="mailto:tienthanhpq.phamquang@gmail.com"
               className="hidden rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition hover:opacity-90 md:inline-block"
             >
               Contact
@@ -99,9 +99,28 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             © {new Date().getFullYear()} Phạm Quang Tiến Thành
           </p>
           <div className="flex items-center gap-4 text-foreground/70">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-foreground">GitHub</a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground">LinkedIn</a>
-            <a href="mailto:contact@example.com" className="hover:text-foreground">Email</a>
+            <a 
+              href="https://github.com/Thanhizme" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="hover:text-foreground"
+            >
+              GitHub
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/ph%E1%BA%A1m-quang-ti%E1%BA%BFn-th%C3%A0nh-7b651036a/" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="hover:text-foreground"
+            >
+              LinkedIn
+            </a>
+            <a 
+              href="mailto:tienthanhpq.phamquang@gmail.com" 
+              className="hover:text-foreground"
+            >
+              Email
+            </a>
           </div>
         </div>
       </footer>

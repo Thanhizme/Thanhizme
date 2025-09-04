@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "@/components/site/Layout";
 import Index from "@/pages/Index";
 import About from "@/pages/About";
@@ -14,8 +14,8 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        {/* Redirect any unknown routes to home */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        {/* Show 404 page instead of redirect */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );

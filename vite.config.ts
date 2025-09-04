@@ -6,7 +6,7 @@ import { createServer } from "./server";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Thêm base path cho GitHub Pages
-  base: mode === 'production' ? '/' : '/',
+  base: mode === 'production' ? '/Thanhizme/' : '/',
   
   server: {
     host: "::",

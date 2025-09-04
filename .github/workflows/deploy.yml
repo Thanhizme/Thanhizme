@@ -3,8 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 
 jobs:
   build-and-deploy:
@@ -29,19 +27,6 @@ jobs:
       with:
         version: 10.14.0
 
-    - name: Get pnpm store directory
-      shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-    - name: Setup pnpm cache
-      uses: actions/cache@v3
-      with:
-        path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.os }}-pnpm-store-
-
     - name: Install dependencies
       run: pnpm install --frozen-lockfile
 
@@ -59,6 +44,4 @@ jobs:
         path: './dist/spa'
 
     - name: Deploy to GitHub Pages
-      id: deployment
       uses: actions/deploy-pages@v2
-      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'

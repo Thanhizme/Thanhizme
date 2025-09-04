@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => ({
     // Thêm cấu hình cho production build
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild', // ← ĐỔI TỪ 'terser' THÀNH 'esbuild'
   },
   plugins: [react(), mode === 'development' ? expressPlugin() : null].filter(Boolean),
   resolve: {

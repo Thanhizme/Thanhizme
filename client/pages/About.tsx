@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+﻿import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { 
@@ -48,7 +48,7 @@ export default function About() {
               <p className="leading-relaxed text-muted-foreground">
                 My long-term goal is to build impactful projects that can handle real-world data challenges. 
                 In the near future, I aim to work on projects that bridge the gap between data engineering 
-                and data science, focusing on creating end-to-end solutions—from data collection and cleaning, 
+                and data science, focusing on creating end-to-end solutions from data collection and cleaning, 
                 to analysis, to deploying intelligent models in production.
               </p>
 
@@ -152,7 +152,7 @@ export default function About() {
               <div className="flex flex-wrap gap-2">
                 {[
                   "Python",
-                  "SQL",
+                  "SQL", 
                   "React",
                   "TypeScript",
                   "Machine Learning",
@@ -178,9 +178,9 @@ export default function About() {
           {/* CTA */}
           <Card className="bg-gradient-to-br from-primary/10 to-accent/10">
             <CardContent className="pt-6">
-              <h3 className="font-semibold mb-2">Let's Collaborate</h3>
+              <h3 className="font-semibold mb-2">Let&apos;s Collaborate</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Interested in data projects or want to connect? I'd love to hear from you!
+                Interested in data projects or want to connect? I&apos;d love to hear from you!
               </p>
               <div className="space-y-2">
                 <Button asChild className="w-full">
@@ -212,7 +212,7 @@ export default function About() {
           <div className="prose prose-gray max-w-none">
             <p className="text-lg">
               My vision is to create <strong>end-to-end data solutions</strong> that bridge the gap 
-              between data engineering and data science. I'm particularly excited about:
+              between data engineering and data science. I&apos;m particularly excited about:
             </p>
             
             <div className="grid gap-6 mt-6 md:grid-cols-2">

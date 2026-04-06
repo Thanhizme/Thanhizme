@@ -4,8 +4,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ph%E1%BA%A1m-quang-ti%E1%BA%BFn-th%C3%A0nh-7b651036a/)
 [![GitHub followers](https://img.shields.io/github/followers/Thanhizme?style=social)](https://github.com/Thanhizme)
 
-🎓 **3rd Year Student | Bachelor of Computing Science (Honours)** 📍 **University of Technology Sydney (UTS)** | Sydney, Australia  
-📊 **Current GPA: 3.3/4.0**
+🎓 **Bachelor of Computing Science (Honours)** 📍 **University of Technology Sydney (UTS)**
+🏫 **Academic Path:** Transferred to UTS Honours after 2.5 years of study at **HCMUT (Vietnam)** with a **3.6/4.0 GPA**.
 
 ---
 
@@ -17,7 +17,7 @@ I thrive at the intersection of complex data structures and high-performance com
 
 - 🌱 **Currently Exploring:** Numerical Methods, Quantum Computing, and Advanced SQL.
 - 🔭 **Featured Project:** Building offline-first digital tools for biodiversity monitoring (Computing Science Studio 1).
-- ⚡ **Goal:** To build the data pipelines and AI models that will power the next generation of fintech and biotech.
+- ⚡ **Goal:** To build the data pipelines and AI models that will power the next generation of fintech and quantum computing.
 
 ---
 
@@ -34,9 +34,19 @@ I thrive at the intersection of complex data structures and high-performance com
 
 ### 📂 Featured Projects
 
-* **[Biodiversity Monitoring Tool](https://github.com/Thanhizme/biodiversity-project)** Developed an offline-first ecological data collection tool for field scientists, focusing on data integrity and synchronization.
-* **[P2P File Sharing System](https://github.com/Thanhizme/p2p-file-share)** Built a peer-to-peer file-sharing application using PostgreSQL for metadata management and optimized network protocols.
-* **[Numerical Methods Hub](https://github.com/Thanhizme/numerical-methods)** A collection of linear algebra and calculus algorithms implemented in clean, performant code for scientific computing.
+#### **Data Engineering & Systems**
+* **[Lumbar MRI Database & Performance Analysis](https://github.com/Thanhizme)**
+  *Designed a 3NF schema for a **5.8GB medical dataset** (48k images). Benchmarked B-Tree indexing and deadlock concurrency to evaluate throughput performance between **SQL Server vs. MongoDB**.*
+* **[Peer-to-Peer (P2P) File Sharing System](https://github.com/Thanhizme/p2p-file-share)**
+  *Engineered a decentralized file-sharing application using **PostgreSQL** for metadata management. Implemented core **TCP/IP** protocols to ensure data consistency across distributed nodes.*
+* **[Enterprise Network Infrastructure](https://github.com/Thanhizme)**
+  *Designed a scalable corporate network using **VLSM and VLAN** segmentation. Implemented **OSPF** for high-availability routing and Extended ACLs for role-based security.*
+
+#### **Full-Stack Development**
+* **[Full-Stack LMS Platform](https://github.com/Thanhizme)**
+  *Built a multi-role LMS (Students/Tutors/Admins) using **React, TS, and Flask**. Optimized **Azure SQL** via Stored Procedures and containerized the ecosystem with **Docker Compose**.*
+* **[EventEase Booking Platform](https://github.com/Thanhizme)**
+  *Developed a real-time ticketing platform with **Firebase Token Verification** and **MSSQL**. Created RESTful APIs to manage ticket inventory and automated event workflows.*
 
 ---
 

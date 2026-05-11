@@ -50,19 +50,8 @@ I thrive at the intersection of complex data structures and high-performance com
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Thanhizme&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thanhizme&layout=compact&langs_count=7&theme=tokyonight" />
-</p>
-
----
-
 ### 📬 Let's Connect!
 
 - **Email:** [tienthanhpq.phamquang@gmail.com](mailto:tienthanhpq.phamquang@gmail.com)
 - **Portfolio:** [thanhizme.github.io/Thanhizme](https://thanhizme.github.io/Thanhizme/)
 - **Location:** Panania, NSW, Australia 🇦🇺
-
-✨ *"Code is the tool, but data is the truth."*
